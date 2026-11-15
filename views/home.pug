@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title Buscador de películas
+    body
+        h1 Esta es la página de Home
+        form(action='/film' method='POST') 
+            label(for='filmName') Título:
+            input(type='text' name='filmName' placeholder='Título de película')
+
+
+            button(type='submit') Enviar
+
